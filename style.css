@@ -1,0 +1,108 @@
+header{
+   	padding: 30px 0;
+        
+  
+}
+
+
+body {
+
+    
+    padding: 7em 0;
+    padding-left: 300px;
+    background: linear-gradient( orange, blue);
+    
+
+}
+
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.input-texto{
+    font-size: 20px;
+}
+
+.botones{
+    font-size: 30px;
+}
+
+.encriptar{
+    width: 48%;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight:bold;
+	color: blue;
+	background: #E67E22;
+	border: blue;
+	border-radius: 30px;
+	transition: 1s background;
+	cursor: pointer;
+
+}
+
+.encriptar:hover{
+    background: yellow;
+    font-size: large;
+    transform: scale(1.0);
+    
+}
+
+.desencriptar{
+    width: 48%;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight:bold;
+	color: blue;
+	background: #F5CBA7;
+	border: blue;
+	border-radius: 15px;
+	transition: 1s background;
+	cursor: pointer;
+   
+}
+
+.desencriptar:hover{
+    background: yellow;
+    font-size: large;
+    transform: scale(1.0);
+}
+
+
+.copiar{
+    width: 75%;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight:bold;
+	color: blue;
+	background: #F5CBA7;
+	border: blue;
+	border-radius: 15px;
+	margin-left: 10px;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+.copiar:hover{
+    background: yellow;
+    font-size: large;
+    transform: scale(1.0);
+}
+
+
+
+.mensaje {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 9px;
+    background-size: 200px;
+}
+
+
+
